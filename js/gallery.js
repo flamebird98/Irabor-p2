@@ -44,8 +44,28 @@ function GalleryImage(imgPath, imgLoc, imgDesc, imgDate) {
 	this.imgDate = imgDate;
 }
 
+function getQueryParams(qs) {
+	qs = qs.split("+").join(" ");
+	var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+	while (tokens = re.exec(qs)) {
+		params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+	}
+	return params;
+}
+
+var $_GET = getQueryParams(document.location.search);
+
 //XMLHTTP Request
-var mUrl = "images.json";
+var mUrl;
+if($_GET["json"] == undefined){
+	mUrl = "extra.json";
+	console.log(mUrl);
+}
+else {
+	mUrl = $_GET["json"];
+callbackonsole.log(mUrl);
+}
+
 function XMLHttpListener() {
 	console.log(mRequest.response);
 }
