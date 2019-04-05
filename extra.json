@@ -1,0 +1,46 @@
+{
+    "images": [
+        {
+            "imgPath": "img/flowers/carnation.jpg",
+            "imgLocation": "A garden",
+            "description": "Carnation",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/flowers/dahlia.jpg",
+            "imgLocation": "A bouqeut",
+            "description": "Dahlia",
+            "date": "05/01/2016"
+        },
+        {
+            "imgPath": "img/flowers/daisy.jpg",
+            "imgLocation": "A funeral",
+            "description": "Daisy",
+            "date": "06/01/2016"
+        },
+        {
+            "imgPath": "img/flowers/dandelion.jpg",
+            "imgLocation": "A wedding",
+            "description": "Dandelion",
+            "date": "07/01/2016"
+        },
+        {
+            "imgPath": "img/flowers/hibiscus.jpg",
+            "imgLocation": "A vase",
+            "description": "Hibiscus",
+            "date": "08/01/2016"
+        },
+        {
+            "imgPath": "img/flowers/rose.jpg",
+            "imgLocation": "A pot",
+            "description": "Rose",
+            "date": "09/01/2016"
+        },
+        {
+            "imgPath": "img/flowers/tulip.jpg",
+            "imgLocation": "A field",
+            "description": "Tulip",
+            "date": "10/01/2016"
+        }
+    ]
+}
