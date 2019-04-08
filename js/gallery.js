@@ -63,7 +63,7 @@ if($_GET["json"] == undefined){
 }
 else {
 	mUrl = $_GET["json"];
-callbackonsole.log(mUrl);
+	console.log(mUrl);
 }
 
 function XMLHttpListener() {
